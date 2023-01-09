@@ -1,0 +1,33 @@
+
+.clip{
+    margin: 0 auto;
+    width: 500px;
+}
+img:nth-child(1){
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+    object-position: center;
+    clip-path: circle(30%);
+}
+img:nth-child(2){
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+    object-position: center;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+img:nth-child(3){
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+    object-position: center;
+    clip-path: ellipse(130px 140px at 10% 20%);
+}
+img:nth-child(4){
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+    object-position: center;
+    clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z');
+}
